@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "espresso-dial-in",
+    "name": "Dial-In",
     "slug": "espresso-dial-in",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,10 +16,17 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "de.tobiasstoll.espressodialin"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "owner": "TobiasStoll",
+    "extra": {
+      "eas": {
+        "projectId": "0d9265ff-0605-4845-9f6c-e4c2dd035415"
+      }
     }
   }
 }
